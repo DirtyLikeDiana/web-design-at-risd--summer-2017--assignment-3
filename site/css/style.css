@@ -10,28 +10,24 @@ html {
 body {
    width: 800px;
    font-family: "Univers-Light-Normal", sans-serif;
-   /*border: 1px solid red;*/
+   border: 1px solid red;
 }
 
 header, main, footer {
    min-width: 550px;
-   max-width: 100%;
    margin: 10px 0;
-   /*border: 1px solid black;*/
+   border: 1px solid BurlyWood;
 }
 
 header {
    align-self: flex-start;
 }
 
-main {
-}
-
 /* CONTENT DIVS */
 
 #tenprinciples {
-   width: 100%;
-   /*border: 1px solid black;*/
+   width: inherit;
+   border: 1px solid green;
 }
 
 /* SPECIAL LIST FORMATTING WITH EVEN AND ODD!!1 */
@@ -40,8 +36,8 @@ main {
    display: flex;
    flex-flow: row wrap;
    margin: 20px 0;
-   width: 100%;
-   /*border: 1px solid black;*/
+   width: inherit;
+   border: 1px solid blue;
 }
 
 .even .principle {
@@ -52,6 +48,7 @@ main {
 
 .even .number {
    order: 2;
+   padding-right: 15px;
 }
 
 .odd .principle {
@@ -60,6 +57,16 @@ main {
 
 .odd .number {
    text-align: right;
+   padding-left: 15px;
+}
+
+.number {
+   width: 20%;
+}
+
+.principle {
+   width: 70%;
+   border: 1px solid black;
 }
 
 
@@ -93,11 +100,5 @@ p {
    font: 700 6rem "Univers-Light-Normal";
    color: #FFF;
    background-color: #969696;
-   width: 20%;
-   /*border: 1px solid black;*/
-}
-
-.principle {
-   width: 70%;
    /*border: 1px solid black;*/
 }
