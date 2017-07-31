@@ -28,6 +28,8 @@ main {
 
 #tenprinciples {
    max-width: 100%;
+   display: flex;
+   flex-flow: row wrap;
    border: 1px solid black;
 }
 
