@@ -15,7 +15,7 @@ body {
 
 header, main, footer {
    min-width: 550px;
-   margin: 10px 0;
+   margin: 10px;
    border: 1px solid BurlyWood;
 }
 
@@ -35,7 +35,7 @@ header {
 .even, .odd {
    display: flex;
    flex-flow: row wrap;
-   margin: 20px 0;
+   justify-content: space-between;
    width: inherit;
    border: 1px solid blue;
 }
@@ -65,7 +65,9 @@ header {
 }
 
 .principle {
-   width: 70%;
+   max-width: 70%;
+   display: inherit;
+   align-items: center;
    border: 1px solid black;
 }
 
@@ -89,7 +91,7 @@ h2, footer, #gooddesign {
 }
 
 p {
-   line-height: 1.5em;
+   line-height: 1.5rem;
 }
 
 #big10 {
