@@ -1,0 +1,42 @@
+/* UNIVERSAL */
+
+html {
+   font-size: 16px;
+}
+
+body {
+   width: 90%;
+   font-family: "Univers-Light-Normal", sans-serif;
+}
+
+main {
+   line-height: 1.5rem;
+}
+
+header, main, footer {
+   margin: 20px;
+}
+
+/* CONTENT DIVS */
+
+#principles {
+   min-width: 30%;
+   max-width: 50%;
+   position: relative;
+   left: 50px;
+}
+
+/* TEXT STYLING */
+
+h1, h2 {
+   font-family: "Avenir", sans-serif;
+}
+
+h1 {
+   font-size: 2rem;
+}
+
+h2 {
+   font-size: 1.5rem;
+   font-style: italic;
+}
