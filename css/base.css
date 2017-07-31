@@ -97,7 +97,7 @@ body {
 
 ol,
 ul {
-   list-style: decimal outside;
+   list-style: none;
 }
 
 blockquote,
