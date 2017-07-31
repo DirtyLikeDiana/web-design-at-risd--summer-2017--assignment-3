@@ -19,12 +19,11 @@ header, main, footer {
 
 main {
    line-height: 1.5rem;
-   padding-left: 20px;
    border: 1px solid black;
 }
 
 ol, ul {
-   list-style: decimal outside;
+   list-style: none;
 }
 
 /* CONTENT DIVS */
