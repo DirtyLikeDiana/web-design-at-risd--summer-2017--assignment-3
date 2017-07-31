@@ -5,7 +5,7 @@ html {
 }
 
 body {
-   width: 550px;
+   width: 600px;
    font-family: "Univers-Light-Normal", sans-serif;
    position: relative;
    left: 25%;
@@ -19,16 +19,16 @@ header, main, footer {
 
 main {
    line-height: 1.5rem;
-   border: 1px solid black;
-}
-
-ol, ul {
-   list-style: none;
 }
 
 /* CONTENT DIVS */
 
 #content {
+   max-width: 100%;
+   border: 1px solid black;
+}
+
+#tenprinciples {
    max-width: 100%;
    border: 1px solid black;
 }
@@ -43,13 +43,23 @@ h1 {
    font-size: 2rem;
 }
 
-h2 {
-   font-size: 1.3rem;
+h2, h3 {
    font-weight: 300;
 }
 
+h2 {
+   font-size: 1.3rem;
+}
+
 .number {
-   font: 700 4rem "Univers-Light-Normal";
+   font: 700 6rem "Univers-Light-Normal";
    color: #FFF;
-   background-color: #000;
+   background-color: #969696;
+   text-align: right;
+   width: 20%;
+}
+
+.principle {
+   width: 70%;
+   border: 1px solid black;
 }
