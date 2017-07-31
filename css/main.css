@@ -7,8 +7,6 @@ html {
 body {
    width: 600px;
    font-family: "Univers-Light-Normal", sans-serif;
-   position: relative;
-   left: 25%;
    border: 1px solid black;
 }
 
