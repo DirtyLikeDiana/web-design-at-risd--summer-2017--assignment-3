@@ -2,36 +2,40 @@
 
 html {
    font-size: 16px;
+   display: flex;
+   justify-content: center;
 
 }
 
 body {
-   width: 70%;
+   width: 800px;
    font-family: "Univers-Light-Normal", sans-serif;
-   border: 1px solid black;
-   display: flex;
-   flex-flow: row wrap;
+   /*border: 1px solid red;*/
 }
 
 header, main, footer {
+   min-width: 550px;
+   max-width: 100%;
    margin: 10px 0;
-   border: 1px solid black;
+   /*border: 1px solid black;*/
+}
+
+header {
+   align-self: flex-start;
 }
 
 main {
-   display: inherit;
-   justify-content: center;
 }
 
 /* CONTENT DIVS */
 
 #content {
-   border: 1px solid black;
+   /*border: 1px solid black;*/
 }
 
 #tenprinciples {
-   max-width: 100%;
-   border: 1px solid black;
+   width: 100%;
+   /*border: 1px solid black;*/
 }
 
 /* SPECIAL LIST FORMATTING WITH EVEN AND ODD!!1 */
@@ -40,7 +44,8 @@ main {
    display: flex;
    flex-flow: row wrap;
    margin: 20px 0;
-   max-width: 100%;
+   width: 100%;
+   /*border: 1px solid black;*/
 }
 
 .even .principle {
@@ -84,15 +89,19 @@ p {
    line-height: 1.5em;
 }
 
+#big10 {
+   font: 700 6rem "Univers-Light-Normal";
+}
+
 .number {
    font: 700 6rem "Univers-Light-Normal";
    color: #FFF;
    background-color: #969696;
    width: 20%;
-   border: 1px solid black;
+   /*border: 1px solid black;*/
 }
 
 .principle {
-   width: 60%;
-   border: 1px solid black;
+   width: 70%;
+   /*border: 1px solid black;*/
 }
