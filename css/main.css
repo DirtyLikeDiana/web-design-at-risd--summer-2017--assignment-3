@@ -22,12 +22,10 @@ main {
 /* CONTENT DIVS */
 
 #content {
-   max-width: 100%;
    border: 1px solid black;
 }
 
 #tenprinciples {
-   max-width: 100%;
    display: flex;
    flex-flow: row wrap;
    border: 1px solid black;
@@ -57,9 +55,10 @@ h2 {
    background-color: #969696;
    text-align: right;
    width: 20%;
+   border: 1px solid black;
 }
 
 .principle {
-   width: 70%;
+   width: 75%;
    border: 1px solid black;
 }
