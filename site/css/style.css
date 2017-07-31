@@ -26,13 +26,12 @@ main {
 }
 
 #tenprinciples {
-   display: flex;
-   flex-flow: row wrap;
    border: 1px solid black;
 }
 
 .even, .odd {
-   display: inherit;
+   display: flex;
+   flex-flow: row wrap;
 }
 
 .even .principle {
