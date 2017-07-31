@@ -31,15 +31,15 @@ main {
    border: 1px solid black;
 }
 
-#principle1, #principle2, #principle3, #principle4, #principle5, #principle6, #principle7, #principle8, #principle9, #principle10 {
+.even, .odd {
    display: inherit;
 }
 
-#principle2 .principle, #principle4 .principle {
+.even .principle {
    order: 1;
 }
 
-#principle2 .number, #principle4 .number {
+.even .number {
    order: 2;
 }
 
