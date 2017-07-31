@@ -97,7 +97,7 @@ body {
 
 ol,
 ul {
-   list-style: none;
+   list-style: decimal outside;
 }
 
 blockquote,
@@ -128,15 +128,28 @@ html {
    font-size: 16px;
 }
 
+body {
+   width: 90%;
+   position: relative;
+   left: 50px;
+}
+
 main {
-   font-family: "Helvetica Neue", sans-serif;
+   font-family: "Univers-Light-Normal", sans-serif;
    line-height: 1.5rem;
+}
+
+/* CONTENT DIVS */
+
+#principles {
+   min-width: 30%;
+   max-width: 50%;
 }
 
 /* TEXT STYLING */
 
 h1, h2, h3 {
-   font-family: "Futura", sans-serif;
+   font-family: "Avenir", sans-serif;
 }
 
 h1 {
@@ -145,4 +158,5 @@ h1 {
 
 h2 {
    font-size: 1.5rem;
+   font-style: italic;
 }
