@@ -48,7 +48,7 @@ header {
 
 .even .number {
    order: 2;
-   padding-right: 15px;
+   padding-left: 7px;
 }
 
 .odd .principle {
@@ -57,11 +57,11 @@ header {
 
 .odd .number {
    text-align: right;
-   padding-left: 15px;
+   padding-right: 7px;
 }
 
 .number {
-   width: 20%;
+   width: 100px;
 }
 
 .principle {
