@@ -28,7 +28,7 @@ ol, ul {
 
 /* CONTENT DIVS */
 
-#principles {
+#content {
    max-width: 100%;
    border: 1px solid black;
 }
@@ -46,4 +46,10 @@ h1 {
 h2 {
    font-size: 1.3rem;
    font-weight: 300;
+}
+
+.number {
+   font: 700 4rem "Univers-Light-Normal";
+   color: #FFF;
+   background-color: #000;
 }
