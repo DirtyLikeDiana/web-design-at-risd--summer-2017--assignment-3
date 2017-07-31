@@ -35,6 +35,14 @@ main {
    display: inherit;
 }
 
+#principle2 .principle, #principle4 .principle {
+   order: 1;
+}
+
+#principle2 .number, #principle4 .number {
+   order: 2;
+}
+
 /* TEXT STYLING */
 
 header, footer, #gooddesign {
