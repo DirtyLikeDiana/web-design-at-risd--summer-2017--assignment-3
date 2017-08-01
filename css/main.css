@@ -6,22 +6,40 @@ body {
 
 /* Additional non-critical styles */
 
-h1 {
+h1:nth-child(1) {
   color: #e5e5da;
   font-size: 150px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
 }
+h1:nth-child(2) {
+  color: #7f7f79;
+  font-size: 150px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
 
-h2 {
+h2:nth-child(1) {
   color: #445fa4;
   font-size: 65px;
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
 }
+h2:nth-child(2) {
+  color: #6a94ff;
+  font-size: 65px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
 
-h3 {
+h3:nth-child(1) {
   color: #18484f;
+  font-size: 90px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+h3:nth-child(2) {
+  color: #354a7f;
   font-size: 90px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
