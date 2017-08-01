@@ -1,0 +1,72 @@
+
+h4{
+   font-size: 26px;
+   font-family: Arial;
+   margin-left: 610px;
+   font-style: italic;
+
+}
+
+h5{
+   font-size: 18px;
+
+   text-align: left;
+   direction: left;
+   width: 320px;
+   margin-left: 1100px;
+   background-color: white;
+   padding: 20px;
+   font-family:Kalinga;
+
+}
+h1{
+   text-align: left;
+   font-family: Gotham;
+   font-style: bold;
+   font-size: 48px;
+   margin-left: 40px;
+}
+
+h2{
+   text-align: center;
+   font-family: Gotham;
+   font-size: 32px;
+   writing-mode:vertical-rl;
+   text-orientation:upright;
+   width: 50px;
+}
+
+h3{
+   font-family:Helvetica;
+   text-align:left;
+   font-size: 36px;
+   margin-left: 200px;
+   margin-top: -350px;
+
+
+}
+
+footer{
+   text-align: center;
+   font-size: 12px;
+   font-family: gotham;
+   margin-bottom: 50px;
+   margin-top: 150px;
+}
+
+body{
+   margin:0px;
+   border:none;
+}
+
+p{
+  text-align: center;
+   font-family: Gotham;
+   font-size: 16px;
+   writing-mode:vertical-rl;
+   text-orientation:upright;
+   width: 50px;
+   margin-left: 560px;
+   margin-bottom: -3280px;
+}
+
