@@ -1,0 +1,49 @@
+#home{
+   width: 25%;
+   height: 585px;
+   position: relative;
+   left: 35%;
+   top: -8px;
+   margin: 0;
+   border: 120px  solid rgb(255,0,187);
+   background-color: white;
+   border-radius: 5px;
+}
+h2,p{
+   font-family: 'Spectral';
+}
+h1{
+   position: absolute;
+   top: 60px;
+   left: 50px;
+   font: 5em 'geneva';
+   letter-spacing: 23px;
+   text-shadow: 6px 7px 10px grey;
+}
+.dots{
+   top: 300px;
+}
+h2{
+   position: absolute;
+   width: 250px;
+   top: 580px;
+   left: 125px;
+   font-size: 1em;
+}
+p{
+   position: absolute;
+   width: 200px;
+   top: 590px;
+   left: 300px;
+   padding: 30px;
+   transform: rotate(-90deg);
+   transform-origin: left top 0;
+}
+.line{
+   width: 85%;
+   height: 100px;
+   position: relative;
+   top: 100px;
+   left: 220px;
+   border-top: 2px solid black;
+}

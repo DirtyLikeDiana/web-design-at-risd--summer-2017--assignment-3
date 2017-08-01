@@ -1,0 +1,15 @@
+#c{
+   width: 45%;
+   height: 420px;
+   position: relative;
+   top: 110px;
+   left: 30%;
+   margin: 0;
+   border: 90px  solid rgb(255,0,187);
+   background-color: white;
+   border-radius: 5px;
+}
+.c-c{
+   width: 500px;
+}
+
