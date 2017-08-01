@@ -8,20 +8,24 @@ html {
 }
 
 body {
-   width: 700px;
+   width: 650px;
    font-family: "Univers-Light-Normal", sans-serif;
    /*border: 1px solid red;*/
 }
 
 header, main, footer {
-   min-width: 530px;
+   min-width: 500px;
    margin-bottom: 30px;
-   border: 1px solid BurlyWood;
+   /*border: 1px solid BurlyWood;*/
 }
 
 header {
    margin-top: 10px;
    align-self: flex-start;
+}
+
+footer {
+   padding-top: 10px;
 }
 
 /* CONTENT DIVS */
@@ -70,32 +74,26 @@ header {
 }
 
 .principle {
-   max-width: 70%;
+   max-width: 65%;
    display: inherit;
    align-items: center;
    /*border: 1px solid pink;*/
 }
 
+#gooddesign {
+   font-size: 1.5rem;
+   margin: 20px 0;
+   padding: 10px 0;
+   text-transform: uppercase;
+}
 
 /* TEXT STYLING */
-
-header, footer, #gooddesign {
-   font-family: "Avenir Next", sans-serif;
-}
 
 h1 {
    font-size: 2rem;
    text-transform: lowercase;
-   text-align: center;
    margin-top: 10px;
    /*border: 1px solid orange;*/
-}
-
-#gooddesign {
-   font-size: 1.5rem;
-   margin: 20px 0;
-   text-transform: uppercase;
-   text-align: center;
 }
 
 h2 {
@@ -105,13 +103,17 @@ h2 {
    /*border: 1px solid aqua;*/
 }
 
-h2, footer {
-   font-weight: 300;
+h1, h2, footer, #gooddesign {
    text-align: center;
 }
 
 p {
    line-height: 1.5rem;
+}
+
+footer {
+   font-size: 0.8rem;
+   color: DarkGrey;
 }
 
 #big10 {
@@ -121,15 +123,8 @@ p {
    width: 150px;
    height: 150px;
    align-self: center;
-   border: 1px solid pink;
    margin: auto;
 }
-
-/*#ten {
-   position: relative;
-   left: -20px;
-   top: 20px;
-}*/
 
 .number {
    font: 700 6rem "Univers-Light-Normal";
