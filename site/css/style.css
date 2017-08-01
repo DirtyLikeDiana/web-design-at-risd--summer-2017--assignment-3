@@ -8,26 +8,26 @@ html {
 }
 
 body {
-   width: 800px;
+   width: 700px;
    font-family: "Univers-Light-Normal", sans-serif;
-   border: 1px solid red;
+   /*border: 1px solid red;*/
 }
 
 header, main, footer {
-   min-width: 550px;
-   margin: 10px;
-   border: 1px solid BurlyWood;
+   min-width: 530px;
+   /*border: 1px solid BurlyWood;*/
 }
 
 header {
    align-self: flex-start;
+   margin-bottom: 20px;
 }
 
 /* CONTENT DIVS */
 
 #tenprinciples {
    width: inherit;
-   border: 1px solid green;
+   /*border: 1px solid green;*/
 }
 
 /* SPECIAL LIST FORMATTING WITH EVEN AND ODD!!1 */
@@ -35,14 +35,16 @@ header {
 .even, .odd {
    display: flex;
    flex-flow: row wrap;
-   justify-content: space-between;
+   /*justify-content: space-between;*/
    width: inherit;
-   border: 1px solid blue;
+   margin: 3% 0 3% 0;
+   /*border: 1px solid blue;*/
 }
 
 .even .principle {
    order: 1;
    text-align: right;
+   padding-left: 15px;
    padding-right: 15px;
 }
 
@@ -53,6 +55,7 @@ header {
 
 .odd .principle {
    padding-left: 15px;
+   padding-right: 15px;
 }
 
 .odd .number {
@@ -68,7 +71,7 @@ header {
    max-width: 70%;
    display: inherit;
    align-items: center;
-   border: 1px solid black;
+   /*border: 1px solid pink;*/
 }
 
 
@@ -83,11 +86,16 @@ h1 {
 }
 
 h2 {
-   font-size: 1.3rem;
+   font-size: 1.1rem;
+   text-transform: uppercase;
 }
 
-h2, footer, #gooddesign {
+h2, footer {
    font-weight: 300;
+}
+
+#gooddesign {
+   font-size: 1.2rem;
 }
 
 p {
