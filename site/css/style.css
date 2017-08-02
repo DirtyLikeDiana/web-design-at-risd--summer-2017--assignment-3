@@ -1,0 +1,199 @@
+/* UNIVERSAL */
+
+html {
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+}
+
+body {
+   min-width: 400px;
+   max-width: 750px;
+   /*padding: 0 150px;*/
+   margin: 0 5%;
+   /*border: 1px solid red;*/
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+header, main, footer {
+   min-width: 500px;
+   margin-bottom: 30px;
+   font-family: "Avenir", sans-serif;
+   /*border: 1px solid BurlyWood;*/
+}
+
+header {
+   margin-top: 15px;
+   align-self: flex-start;
+}
+
+footer {
+   padding-top: 10px;
+}
+
+#nav {
+   width: 300px;
+   margin: 5px auto;
+   list-style: none;
+   /*border: 1px solid hotpink;*/
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+}
+
+#nav li {
+   text-align: center;
+   margin: 10px 0;
+   /*border: 1px solid blue;*/
+}
+
+/* CONTENT DIVS */
+
+#tenprinciples {
+   width: inherit;
+   display: flex;
+   flex-flow: row wrap;
+   /*border: 1px solid lightgreen;*/
+}
+
+#tenprinciples .prin {
+   margin-bottom: 20px;
+}
+
+/*TEN PRINCIPLES LIST FORMATTING*/
+
+#tenprinciples .prin:nth-child(odd) {
+   justify-content: flex-start;
+   /*background-color: powderblue;*/
+}
+
+#tenprinciples .prin:nth-child(odd) .principle {
+   order: 2;
+   text-align: left;
+}
+
+#tenprinciples .prin:nth-child(odd) .number {
+   order: 1;
+}
+
+#tenprinciples .prin:nth-child(even) {
+   justify-content: flex-end;
+   /*background-color: pink;*/
+}
+
+#tenprinciples .prin:nth-child(even) .principle {
+   order: 1;
+   text-align: right;
+   justify-content: flex-end;
+}
+
+#tenprinciples .prin:nth-child(even) .number {
+   order: 2;
+}
+
+/**/
+
+.number {
+   display: inherit;
+   width: 120px;
+   height: 100%;
+   animation: fadeIn 5s;
+}
+
+.prin {
+   display: inherit;
+   align-items: center;
+   min-height: 130px;
+   /*border: 1px solid orange;*/
+}
+
+.principle {
+   max-width: 65%;
+   display: inherit;
+   flex-flow: row wrap;
+   align-items: center;
+   /*border: 1px solid red;*/
+   margin: 5px 20px;
+   max-height: 90%;
+}
+
+.number p {
+   margin: auto;
+}
+
+/* "GOOD DESIGN" */
+
+#gooddesign {
+   font-size: 1.5rem;
+   margin: 20px 0;
+   padding: 10px 0;
+   text-transform: uppercase;
+}
+
+/* TEXT STYLING */
+
+h1 {
+   font-size: 2rem;
+   text-transform: lowercase;
+   margin-top: 10px;/*
+   border: 1px solid orange;*/
+}
+
+h2 {
+   font-size: 1.1rem;
+   text-transform: uppercase;
+   margin-top: 10px;/*
+   border: 1px solid aqua;*/
+}
+
+h1, h2, footer, #gooddesign, #nav li, #big10 {
+   text-align: center;
+}
+
+.principle {
+   line-height: 1.5rem;
+}
+
+footer {
+   font-size: 0.8rem;
+   color: DarkGrey;
+}
+
+#big10 {
+   font-size: 6rem;
+   margin: auto;
+   margin-top: 20px;
+   /*border: 1px solid purple;*/
+   /*line-height: 4rem;*/
+   font-weight: 700;
+}
+
+.number {
+   font-size: 6rem;
+   color: #FFF;
+   background-color: #969696;
+   border-radius: 5px;
+   /*border: 1px solid black;*/
+}
+
+.noshow {
+   display: none;
+}
+
+#nav li a {
+   font-size: 0.7rem;
+   text-transform: uppercase;
+   background-color: #969696;
+   padding: 7px;
+   border-radius: 5px;
+}
+
+em {
+   font-style: italic;
+   font-weight: bolder;
+   /*border: 1px solid blue;*/
+}
