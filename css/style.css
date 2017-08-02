@@ -1,0 +1,103 @@
+h1 {
+    font-size: 57px;
+    text-align: center;
+    color:white;
+    background-color:#929597;
+    padding:5px;
+    border-radius: 2px
+  }
+
+h2 {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  font-family: "Futura";
+  animation: fadeIn 4s;
+  color:#78949D;
+}
+h3 {
+  padding: 10px;
+  margin-top:10px;
+  margin-left: 20px;
+  font-family:"Futura" ;
+  background-color: white;
+  background: -webkit-linear-gradient(#929597,#F7FAFE);
+  border-radius: 1px
+  font-size:30px;
+  line-height: 30px;
+  animation: fadeIn 7s;
+}
+div {
+  border: 50px;
+  padding: 20px;
+  margin:15px;
+  font-family: "Arial";
+}
+h5{
+  text-align: right;
+  color:#78949D;
+  font-size: 40px
+}
+body {
+  font-family: "Futura";
+  animation: fadeIn 3s;
+  margin:50px;
+  background-color:#F7FAFE
+}
+
+div {  
+  background: #466368;
+  background:         linear-gradient(#E9F3F3,#F7FAFE);
+  border-radius: 1px;
+}
+
+hr {
+  margin-top:30px;
+  margin-bottom: 15px;
+  background-color: blue
+  }
+
+h6{
+  text-align: center;
+  font-size: 10px;
+  color:#8EA1A0;
+  animation: fadeIn 7s;
+}
+
+nav {
+  text-align: left;
+  padding: 35px;
+  line-height: 25px
+}
+
+header {
+   animation: fadeIn 10s;
+}
+
+.box {
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.cat {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1;} 
+}
+
+p {
+  animation: fadeIn 3s;
+  font-size: 20px;
+}
+
+span {
+  font-weight: bold
+}
+div {
+    box-shadow: 3px 2px 3px black;
+}
+
