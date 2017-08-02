@@ -1,0 +1,206 @@
+/* css reset */
+* {
+margin: 0;
+padding: 0;
+}
+
+html, body{
+   width: 100%;
+   height: 100%;
+   box-sizing: border-box;
+   margin:0;
+   padding:0;
+   border-width:0;
+   position: absolute;
+}
+
+/* first section */
+.container1{
+   width: 32%;
+   height: 100%;
+   position: absolute;
+
+}
+
+.container1 h1, .container1 h2{
+   font-size: 6vw;
+   text-align: right;
+   font-family: Futura;
+   width: 40vw;
+   margin-left: -10vw;
+   color: rgb(153, 0, 51);
+   position: fixed;
+}
+
+.container1 h1 {
+ padding-top: 15vw;
+}
+
+.container1 h2 {
+   margin-top: 21vw;
+}
+
+.container1 h3, h4{
+   position: fixed;
+   margin-top: 59vh;
+   margin-left: 8vw;
+   font-family: Helvetica;
+   font-weight: 200;
+   text-align: right;
+
+}
+
+.container1 h4 {
+   margin-top: 63vh;
+   margin-left:23vw;
+   font-size: 1vw;
+}
+
+.container1 h3 {
+   font-size: 1.6vw;
+}
+
+.container2 {
+   background-color: rgb(12, 184, 229);
+   position: absolute;
+   margin-left: 32vw;
+   margin-right:0vw;
+   height:100vh;
+   width: 68%;
+}
+
+.f1_container {
+  position: absolute;
+  margin: 5vw;
+  width: 30vw;
+  height: 30vw;
+  z-index: 1;
+  margin-top: 20vh;
+}
+.f1_container {
+  perspective: 1000px;
+}
+.f1_card {
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+.f1_container:hover .f1_card {
+  transform: rotateY(180deg);
+}
+.back, .front {
+   position: absolute;
+  -webkit-backface-visibility: hidden;
+   border-radius: 25px;
+   width: 30vw;
+   height: 30vw;
+}
+.back {
+  display: block;
+  transform: rotateY(180deg);
+  color: black;
+  box-sizing: border-box;
+  padding: 3vw;
+  padding-top:6vw;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: Helvetica;
+  font-size: 1.6vw;
+  font-weight: 200;
+}
+
+.front {
+   text-align: center;
+   box-sizing: border-box;
+   font-size: 4vw;
+   padding-top: 5rem;
+   padding-left: 2rem;
+   padding-right:2rem;
+   font-family: Helvetica;
+   background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+/* second section */
+
+.container3 {
+   background-color: rgb(127, 51, 87);
+   margin-left: 32vw;
+   margin-top: 100vh;
+   height: 100vh;
+}
+
+.container4 {
+   background-color: rgb(221, 233, 70);
+   margin-left: 32vw;
+   height: 100vh;
+}
+
+.container5 {
+   background-color: rgb(178, 166, 27);
+   margin-left: 32vw;
+   height: 100vh;
+}
+
+.container5 .front {
+   margin:0;
+   padding: 10px;
+   padding-top: 40px;
+}
+
+.container6 {
+   background-color: rgb(127, 88, 74);
+   margin-left: 32vw;
+   height: 100vh;
+}
+
+.container6 .front {
+   margin:0;
+   padding: 0px;
+   padding-top: 8rem;
+}
+
+.container7 {
+   background-color: rgb(106, 134, 90);
+   margin-left: 32vw;
+   height: 100vh;
+}
+
+.container8 {
+   background-color: rgb(138, 172, 55);
+   margin-left: 32vw;
+   height: 100vh;
+}
+
+.container8 .front {
+   margin:0;
+   padding: 0px;
+   padding-top: 8rem;
+}
+
+.container9 {
+   background-color: rgb(223, 189, 183);
+   margin-left: 32vw;
+   height: 100vh;
+}
+
+.container10 {
+   background-color: rgb(230, 242, 201);
+   margin-left: 32vw;
+   height: 100vh;
+}
+
+.container10 .front {
+   margin:0;
+   padding: 0px;
+   padding-top: 5rem;
+}
+
+.container11 {
+   background-color: white;
+   margin-left: 32vw;
+   height: 100vh;
+}
+
+.container11 .front, .container11 .back {
+   background-color: rgba(155,155,155,0.3);
+}
