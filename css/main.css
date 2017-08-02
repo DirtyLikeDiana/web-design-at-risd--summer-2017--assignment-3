@@ -1,0 +1,160 @@
+h1{
+  width: 800px;
+  text-align: left;
+  font-size: 110px;
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  letter-spacing: 4px;
+  margin-top: 185px;
+  margin-left: 80px;
+  color: #201711;
+  text-shadow: 4px 2px 8px #990000;
+  font-family: Helvetica;
+  position: relative;
+}
+
+h2{
+  width: 800px;
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  letter-spacing: 4px;
+  margin-top: 50px;
+  margin-left: 175px;
+  color: #201711;
+  text-shadow: 3px 2px 2px #009999;
+  font-family: Helvetica;
+  position: relative;
+}
+.container1{
+  width: 300px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 250px;
+}
+
+.container{
+  width: 300px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 250px;
+}
+
+b{
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 22px;
+}
+
+.container2{
+  width: 300px;
+  float: left;
+  margin-left: 80px;
+  margin-top: 533px;
+}
+
+.container3{
+  width: 300px;
+  float: left;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
+.container4{
+  width: 300px;
+  float: right;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 255px;
+}
+
+.container5{
+  width: 300px;
+  margin-left: 230px;
+  margin-top: 800px;
+  position: absolute;
+}
+
+.container6{
+  width: 300px;
+  margin-top: 800px;
+  position: absolute;
+  margin-left: 640px;
+}
+
+.container7{
+  width: 300px;
+  margin-left: 1040px;
+  margin-top: 800px;
+  position: absolute;
+}
+
+.container8{
+  width: 300px;
+  margin-top: 1050px;
+  color: purple;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.container9{
+  width: 300px;
+  margin-left: 480px;
+  margin-top: 1050px;
+  color: black;
+  position: absolute;
+}
+
+
+h3{
+  text-align: center;
+  font-size: 60px;
+  color: #cc0000;
+  margin-bottom: 12px;
+  font-family: 'lucida grande';
+  font-weight: bolder;
+}
+
+p{
+  font-family: garamond;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #201711;
+}
+
+.image{
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+body{
+  background-color: #f2e4d9;
+}
+
+.good{
+  width: 200px;
+  text-align: left;
+  font-size: 110px;
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  letter-spacing: 2px;
+  margin-left: 160px;
+  color: #006666;
+  text-shadow: 4px 2px 8px #009999;
+  margin-top: 260px;
+}
+
+p:nth-child(1){
+  font-family: 'lucida grande';
+  font-size: 80px;
+}
+
