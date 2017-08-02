@@ -1,14 +1,13 @@
-body{
-   background-color: #FF7F66;
-}
-
-header {
+]eader {
    line-height: 13em;
    font-family: 'Eczar', serif;
    text-transform: uppercase;
    color: #0E0A33;
    padding-top:40px;
    margin-right: 40px;
+}
+body{
+   background-color: #FF7F66;
 }
 
 h1, h2{
@@ -26,7 +25,6 @@ h2{
    text-align: right;
 }
 
-
 .container h3 {
    margin-top:30px;
    position: sticky;
@@ -43,12 +41,14 @@ h3 {
 
 }
 
+
 .content {
    position: relative;
    height: 500px;
    margin-top: 0px;
    margin-bottom: -250px;
 }
+
 p {
    font-size:90px;
    font-family: 'Eczar', serif;
@@ -83,7 +83,7 @@ p:nth-child(2){
    opacity: 0;
 }
 
-av{
+nav{
    position:fixed;
    top: 0;
    font-family: 'Oswald', sans-serif;
@@ -116,6 +116,10 @@ a:hover {
 .container {
    height:25000px;
    margin:400px;
+}
+
+.section{
+   padding: 200px 0px 200px 0px;
 }
 
 footer{
