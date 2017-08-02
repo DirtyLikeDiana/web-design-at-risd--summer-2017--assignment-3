@@ -97,8 +97,18 @@ h4 {
 
 .button {
 
-   border: 4px solid DarkBlue;
+   border: 4px solid FireBrick;
    text-decoration: none;
-
-
+   font-size: 20px;
+   list-style-type: none;
+   text-decoration: none;
+   font-family: 'Ultra', serif;
+   text-align: center;
+   color: FireBrick;
 }
+
+.button a {
+   color: FireBrick;
+}
+
+
