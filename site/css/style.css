@@ -60,8 +60,7 @@ footer {
    /*border: 1px solid lightgreen;*/
 }
 
-#tenprinciples div {
-   display: inherit;
+#tenprinciples .prin {
    margin-bottom: 20px;
 }
 
@@ -89,6 +88,7 @@ footer {
 #tenprinciples .prin:nth-child(even) .principle {
    order: 1;
    text-align: right;
+   justify-content: flex-end;
 }
 
 #tenprinciples .prin:nth-child(even) .number {
@@ -98,12 +98,15 @@ footer {
 /**/
 
 .number {
+   display: inherit;
    width: 120px;
    height: 100%;
-   /*animation: fadeIn 5s;*/
+   animation: fadeIn 5s;
 }
 
 .prin {
+   display: inherit;
+   align-items: center;
    min-height: 130px;
    /*border: 1px solid orange;*/
 }
@@ -111,6 +114,7 @@ footer {
 .principle {
    max-width: 65%;
    display: inherit;
+   flex-flow: row wrap;
    align-items: center;
    /*border: 1px solid red;*/
    margin: 5px 20px;
@@ -150,7 +154,7 @@ h1, h2, footer, #gooddesign, #nav li, #big10 {
    text-align: center;
 }
 
-p {
+.principle {
    line-height: 1.5rem;
 }
 
@@ -186,4 +190,10 @@ footer {
    background-color: #969696;
    padding: 7px;
    border-radius: 5px;
+}
+
+em {
+   font-style: italic;
+   font-weight: bolder;
+   /*border: 1px solid blue;*/
 }
