@@ -1,0 +1,20 @@
+#a{
+   width: 45%;
+   height: 420px;
+   position: relative;
+   top: 110px;
+   left: 30%;
+   margin: 0;
+   border: 90px  solid rgb(255,0,187);
+   background-color: white;
+   border-radius: 5px;
+}
+.a-a{
+   width: 500px;
+}
+/*.grey{
+   color: black;
+}*/
+.n{
+   color: white;
+}

@@ -1,0 +1,18 @@
+#g{
+   width: 45%;
+   height: 420px;
+   position: relative;
+   top: 110px;
+   left: 30%;
+   margin: 0;
+   border: 90px  solid rgb(255,0,187);
+   background-color: white;
+   border-radius: 5px;
+}
+.g-g{
+   width: 200px;
+}
+.g-g-g{
+   width: 1000px;
+   top: -44px;
+}

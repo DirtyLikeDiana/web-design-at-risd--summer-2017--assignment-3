@@ -1,0 +1,42 @@
+body
+
+h3{
+/*   width: auto;*/
+   font: 4em 'geneva';
+   font-weight: 600;
+   position: absolute;
+   top: -130px;
+   left: -166px;
+   letter-spacing: 25px;
+   color: black;
+}
+h4{
+   display: block;
+   font: 1.3em 'geneva';
+   font: 1.4em 'Spectral';
+   font-weight: 100;
+   position: absolute;
+   top: 80px;
+   padding: 40px;
+}
+h5{
+   font: 8em 'Spectral';
+   font-weight: 600;
+   position: absolute;
+   top: 100px;
+   left: 600px;
+}
+h6{
+   font: 15em 'Spectral';
+   font-weight: 600;
+   position: absolute;
+   top: -300px;
+}
+
+.full-container{
+   width: 100%;
+   height: 900px;
+/*   border-bottom: 1px solid black;*/
+   position: relative;
+   z-index: -1;
+}

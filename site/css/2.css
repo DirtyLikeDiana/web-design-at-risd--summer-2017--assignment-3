@@ -1,0 +1,25 @@
+#b{
+   width: 45%;
+   height: 420px;
+   position: relative;
+   top: 110px;
+   left: 30%;
+   margin: 0;
+   border: 90px  solid rgb(255,0,187);
+   background-color: white;
+   border-radius: 5px;
+}
+.b-b{
+   width: 1300px;
+   font-size: 3em;
+   padding: 20px;
+   top: -140px;
+   left: -202px;
+   letter-spacing: 10px;
+}
+.b-b-b{
+   top: -30px;
+   left: -40px;
+   font-size: 3em;
+   letter-spacing: 15px;
+}
