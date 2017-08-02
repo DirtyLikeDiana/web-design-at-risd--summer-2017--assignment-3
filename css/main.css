@@ -1,0 +1,39 @@
+h6 {
+   bottom: 0;
+   right: 0;
+   Position: fixed;
+   color: pink;
+}
+
+html {
+   background-color: grey;
+   color: white;
+}
+h3 {
+   font-size: 30pt;
+}
+div {
+   word-wrap;
+}
+
+h1 {color: pink;
+   font-family: lobster;
+
+}
+
+h3 {max-width: 80px;}
+
+header {
+
+
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 100px;
+
+}
+
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.https://fonts.google.com/?selection.family=Lobster.ttf) format("truetype");
+}
+
