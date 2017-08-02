@@ -10,7 +10,6 @@ th, thead, time, tr, ul, var, video {
   font: inherit;
   vertical-align: baseline;
 }
-
 article, aside, details, figcaption, figure, footer, header, menu, nav,
 section {
   display: block;
@@ -31,4 +30,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
