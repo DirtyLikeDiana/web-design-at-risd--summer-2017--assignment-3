@@ -8,12 +8,13 @@ h1 {
    font-family: 'Montserrat', serif;
    font-size: 40px;
 text-align: center;
-padding: 20px;
+padding-bottom: 20px;
+padding-top: 40px;
 
 
 }
 h2 {
-   font-family: 'Acme', serif;
+   font-family: 'Gloria Hallelujah', serif;
    font-size: 23px;
    margin-bottom: 20px;
    text-align: center;
@@ -44,7 +45,8 @@ nav ul li {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  margin-top: 60px;
+  margin-top: 30px;
+  padding-top: 50px;
 }
 
 .nav {
@@ -74,23 +76,48 @@ nav ul li {
 
 
 
-/*beaudiful dropdown sublist!!!!!*/
+/*dropdown sublist!!!!!*/
 
 .sublist {
 
    font-size: 15px;
-   width: 700px;
-   margin: 0px;
+   width: 680px;
+   margin: 30px;
    padding: 0px;
    display: none;
    color: solid black !important;
     margin: 0px auto;
-    line-height: 28px;
+    line-height: 27px;
 
 }
 .nav :hover >.sublist {
   display: block;
 }
+
+
+#button {
+ margin-right: 50px;
+ font-size: 16px;
+ color: solid red;
+ font-family: 'Gloria Hallelujah', serif;
+ float: right;
+}
+#button:link {
+  text-decoration: none;
+}
+#button:visited {
+  color: purple;
+}
+#button:hover {
+  text-decoration: overline underline;
+
+}
+
+#button:active {
+  color: orange;
+}
+
+
 
 em {
    font-size: 30px;
@@ -109,11 +136,11 @@ html, body {
   min-height: 100%;
 
 
-  margin-bottom: -50px;
+  margin-bottom: -30px;
 }
 .footer,
 .push {
-  height: 50px;
+  height: 30px;
 }
 
 footer {
