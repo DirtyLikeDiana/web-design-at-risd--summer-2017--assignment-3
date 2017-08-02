@@ -25,3 +25,34 @@ h2{
    font-size: 130px;
    text-align: right;
 }
+
+nav{
+   position:fixed;
+   top: 0;
+   font-family: 'Oswald', sans-serif;
+   font-size:100px;
+   z-index: 9999;
+   color: #330066;
+   margin:10px 40px 20px 50px;
+}
+
+li{
+   list-style: none;
+   text-align: center;
+   line-height: 1.3em;
+}
+
+a:link{
+   color:white;
+
+}
+
+a:visited {
+   color:#330066;
+}
+
+a:hover {
+   position:relative;
+   background-color: #FF4C4C;
+}
+
