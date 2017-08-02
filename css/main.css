@@ -10,3 +10,18 @@ header {
    padding-top:40px;
    margin-right: 40px;
 }
+
+h1, h2{
+   margin:80px 200px 0px 0px;
+}
+
+h1 {
+   padding-left:400px;
+   font-size: 200px;
+   letter-spacing: 5px;
+}
+
+h2{
+   font-size: 130px;
+   text-align: right;
+}
