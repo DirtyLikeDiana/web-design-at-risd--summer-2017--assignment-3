@@ -75,3 +75,11 @@ a:hover {
    height:25000px;
    margin:400px;
 }
+
+.container h3 {
+   margin-top:30px;
+   position: sticky;
+   top:0;
+   z-index:400;
+   background: linear-gradient(#FF7F66 60%, transparent);
+}
