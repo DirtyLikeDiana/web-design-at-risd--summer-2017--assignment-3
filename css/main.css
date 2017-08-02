@@ -83,3 +83,12 @@ a:hover {
    z-index:400;
    background: linear-gradient(#FF7F66 60%, transparent);
 }
+
+h3 {
+   font-size: 250px;
+   font-family: 'Oswald', sans-serif;
+   text-align: left;
+   color: #0E0A33;
+
+}
+
